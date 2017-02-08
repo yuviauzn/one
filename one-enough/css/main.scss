@@ -1,0 +1,35 @@
+$gray: #ccc;
+.main{
+    border: 0.5px solid $gray;
+    width: 95%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 8px;
+    img{
+        margin: 11px;
+        width: 94%;
+        height: 55%;
+    }
+    .lspan{
+        font-size: 0.3rem;
+        color: #6C6A6A;
+        margin-left: 11px;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .rspan{
+        font-size: 0.3rem;
+        color: #6C6A6A;
+        margin-right: 11px;
+        float: right;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 0.4rem; 
+        color: black;
+        margin: 3px 11px;
+        width: 100%;
+        float: left;
+    }
+}
+
