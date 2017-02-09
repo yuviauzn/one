@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>一个就够了</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<!--<script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+		<script>
+			window.jQuery||document.write("<script src='../js/jquery_1.9.js'><\/script>");
+		</script>-->
+		<link rel="stylesheet" href="../css/iconfont.css" />
+		<link rel="stylesheet" href="../css/all.css" />
+		<link rel="stylesheet" href="../css/main.css" />
+		<script>
+			document.querySelector("html").style.fontSize=document.documentElement.clientWidth/10+"px";
+		</script>
+	</head>
+	<body>
+		<header>
+			<i class="icon-search iconfont left"></i>
+			<span class="left">ONE</span>
+			<i class="iconfont icon-iconfontwode right"></i>
+			<hr class="left"/>
+		</header>
+			<!--<div id="scroller">-->
+				<div class="main">
+				    <img class="touch" src="img/2017-01-30_152210.png"/>
+				    <span class="lspan">VOL 1577</span><span class="rspan">绘画&LISK作品</span>
+				    <p>跟你在一起的时光都很耀眼。</p>
+				    <p>因为天气好，</p>
+				    <p>因为天气不好，</p>
+				    <p>因为天气刚刚好。</p>
+				    <p>每一天，都很美好。&nbsp;&nbsp;from 《鬼怪》</p>
+				    <span class="date">地球 Mon 30 Jan.2017 </span>
+				    <p class="icon-diqiu iconfont"></p>
+				</div>
+			    <i class="iconfont icon-bijiben"></i>
+			    <span class="note">小记</span>
+			    <i class="iconfont icon-xin"></i>
+			    <span class="like">7128</span>
+			    <i class="iconfont icon-fenxiang"></i>
+			    <span class="clear"></span>
+				<div class="hide">
+					<img src="img/2017-01-30_152210.png" />
+				</div>
+			<!--</div>-->
+		<footer>
+			<ul>
+				<li>
+					<i class="iconfont icon-shouye-shouye"></i>
+					<p>首页</p>
+				</li>
+				<li>
+					<i class="iconfont icon-yuedu"></i>
+					<p>阅读</p>
+				</li>
+				<li>
+					<i class="iconfont icon-icon14"></i>
+					<p>音乐</p>
+				</li>
+				<li>
+					<i class="iconfont icon-dianying"></i>
+					<p>电影</p>
+				</li>
+			</ul>
+		</footer>
+		<script src="../js/iscroll.js"></script>
+		<script>
+//		    var scroll = new IScroll('#wrapper'); 
+		    var img=document.getElementsByClassName("touch");
+		   	var hide=document.getElementsByClassName("hide");
+		    img.touchstart=function(){
+		    	console.log("nn");
+		    }
+		</script>
+	</body>
+</html>

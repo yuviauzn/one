@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>阅读</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link rel="stylesheet" href="css/example.css">
+		<link rel="stylesheet" href="../css/iconfont.css" />
+		<link rel="stylesheet" href="../css/all.css" />
+		<link rel="stylesheet" href="../css/read.css" />
+		<script src="../js/jquery-1.9.1.min.js"></script>
+        <script src="../js/jquery.slides.min.js"></script>
+		<script>
+			document.querySelector("html").style.fontSize=document.documentElement.clientWidth/10+"px";
+		</script> 
+	</head>
+	<body>
+		<header>
+			<i class="icon-search iconfont left"></i>
+			<span class="left yuedu">阅读</span>
+			<i class="iconfont icon-iconfontwode right"></i>
+			<hr class="left"/>
+		</header>
+		<div id="wrapper">
+			<div id="scroller">
+			<section>
+			<div>
+				<div class="container">
+                    <div id="slides">
+                        <img src="img/2017-01-30_152403.png">
+                        <img src="img/2017-01-30_152433.png">
+                        <img src="img/2017-01-30_152322.png">
+                        <img src="img/2017-01-30_152455.png">
+                    </div>
+                </div>
+			</div>
+			<div>
+				<p class="r-date">2017-02-09</p>
+				<ul>
+					<li class="r-type">问答</li>
+					<li class="r-title">古代年终奖是如何发放的？</li>
+					<li class="r-art">没有年终奖的你，可能不如古代的……</li>
+				</ul>
+				<ul>
+					<li class="r-type">连载</li>
+					<li class="r-title">暖气</li>
+					<li class="r-aut">慢三</li>
+					<li class="r-art">不喜欢冬天，因为这个季节除了寒冷，还多了一层死亡的意味。</li>
+				</ul>
+				<ul>
+					<li class="r-type">短篇</li>
+					<li  class="r-title">何日去</li>
+					<li class="r-aut">刘音希</li>
+					<li class="r-art">可也要继续活。也许就还有机会让我这双发生过小小奇迹的手，再次被你握住。</li>
+				</ul>
+			</div>
+			<div>
+				<p class="r-date">2017-02-07</p>
+				<ul>
+					<li class="r-type">问答</li>
+					<li class="r-title">男女厕所坑位之比为多少比较合理？</li>
+					<li class="r-art">女厕所小便池和大便池分开这才是解决之道。</li>
+				</ul>
+				<ul>
+					<li class="r-type">连载</li>
+					<li class="r-title">宇宙超度指南</li>
+					<li class="r-aut">李诞</li>
+					<li class="r-art">有些人为了别人而活，有些人为了别人而死。</li>
+				</ul>
+				
+				<ul>
+					<li class="r-type">短篇</li>
+					<li class="r-title">希娜洛克森其人</li>
+					<li class="r-aut">君达乐的慢先生</li>
+					<li class="r-art">每一个器官都如饥似渴的吸收酒精，她没有衣服覆盖的皮肤都被阳光刺得生疼。</li>
+				</ul>
+			</div>
+			<div>
+				<p class="r-date">2017-02-08</p>
+				<ul>
+					<li class="r-type">问答</li>
+					<li class="r-title">男女厕所坑位之比为多少比较合理？</li>
+					<li class="r-art">女厕所小便池和大便池分开这才是解决之道。</li>
+				</ul>
+				<ul>
+					<li class="r-type">连载</li>
+					<li class="r-title">宇宙超度指南</li>
+					<li class="r-aut">李诞</li>
+					<li class="r-art">有些人为了别人而活，有些人为了别人而死。</li>
+				</ul>
+				
+				<ul>
+					<li class="r-type">短篇</li>
+					<li class="r-title">希娜洛克森其人</li>
+					<li class="r-aut">君达乐的慢先生</li>
+					<li class="r-art">每一个器官都如饥似渴的吸收酒精，她没有衣服覆盖的皮肤都被阳光刺得生疼。</li>
+				</ul>
+			</div>
+			</section>
+			</div>
+		</div>
+		
+		<footer>
+			<ul>
+				<li>
+					<i class="iconfont icon-shouye-shouye"></i>
+					<p>首页</p>
+				</li>
+				<li>
+					<i class="iconfont icon-yuedu"></i>
+					<p>阅读</p>
+				</li>
+				<li>
+					<i class="iconfont icon-icon14"></i>
+					<p>音乐</p>
+				</li>
+				<li>
+					<i class="iconfont icon-dianying"></i>
+					<p>电影</p>
+				</li>
+			</ul>
+		</footer>
+		<script src="../js/iscroll.js"></script>
+		<script>
+		   var scroll = new IScroll('#wrapper');
+		</script>
+		<script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 350,
+        height: 200,
+        play: {
+          active: true,
+          auto: true,
+          interval: 3000,
+          swap: true
+        }
+      });
+    });
+  </script>
+	</body>
+</html>

@@ -1,0 +1,66 @@
+#slides {display: none}     
+.container { margin: 0 auto}
+.slidesjs-navigation{
+    display: none!important;
+}
+.slidesjs-pagination{
+    display: none!important;
+}   
+section{
+    width: 100%;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 93%;
+}
+.yuedu{
+    font-size: 0.6rem;
+    margin-top: 14px;
+}
+.slidesjs-control{
+    width: 100%;
+    height: 152px!important;
+}
+.slidesjs-container{
+    width: 100%;
+    height: 152px!important;
+}
+.r-date{
+    width: 100%;
+    height: 30px;
+    background-color: #eee;
+    font-size: 0.37rem;
+    color: #6C6A6A;
+    padding-top: 12px;
+    padding-left: 10px;
+    margin: 0;
+}
+.r-type{
+     font-size: 0.35rem;
+     border: solid #5D64B2 0.5px;
+     border-radius: 5px;
+     width: 50px;
+     height:18px;
+     text-align: center;
+     padding-top: 4px;
+     margin-top: 15px;
+     color: #5D64B2;
+}
+.r-title{
+    font-size: 0.45rem;
+     margin-top: 15px;
+}
+.r-art{
+    font-size: 0.35rem;
+    font-weight: 500px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.r-aut{
+    font-size: 0.35rem;
+    font-weight: 500px;
+    margin-top: 10px;
+}
