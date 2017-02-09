@@ -49,7 +49,7 @@ var utils = (function () {
 
 	me.prefixPointerEvent = function (pointerEvent) {
 		return window.MSPointerEvent ?
-			'MSPointer' + pointerEvent.charAt(7).toUpperCase() + pointerEvent.substr(8):
+			'MSPointer' + pointerEvent.charAt(4).toUpperCase() + pointerEvent.substr(5):
 			pointerEvent;
 	};
 
@@ -65,11 +65,11 @@ var utils = (function () {
 		duration = speed / deceleration;
 
 		if ( destination < lowerMargin ) {
-			destination = wrapperSize ? lowerMargin - ( wrapperSize / 2.5 * ( speed / 8 ) ) : lowerMargin;
+			destination = wrapperSize ? lowerMargin - ( wrapperSize / 2.5 * ( speed / 5 ) ) : lowerMargin;
 			distance = Math.abs(destination - current);
 			duration = distance / speed;
 		} else if ( destination > 0 ) {
-			destination = wrapperSize ? wrapperSize / 2.5 * ( speed / 8 ) : 0;
+			destination = wrapperSize ? wrapperSize / 2.5 * ( speed / 5 ) : 0;
 			distance = Math.abs(current) + destination;
 			duration = distance / speed;
 		}
