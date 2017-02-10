@@ -1,0 +1,196 @@
+@import "all";
+@import "iconfont.css";
+.yuedu{
+    font-size: 0.6rem;
+    margin-top: 14px;
+    margin-left: 2.75rem;
+}
+.y-head{
+    width: 100%;
+    height: 505px;
+    position: relative;
+    img{
+        position: absolute;
+        z-index: 20;
+    }
+    .y-title{
+        width: 95%;
+        height: 110px;
+        background-color: white;
+        position: absolute;
+        z-index: 30;
+        top: 345px;
+        margin-left: 10px;
+        box-shadow: 0 0 5px #A5A9AB;
+        border-radius: 4px;
+        .himg{
+            width: 55px;
+            height: 60px;
+            border-radius: 20px;
+            margin-left: 5px;
+            margin-top: 10px;
+        }
+        .y-author{
+            font-size: 0.35rem;
+            color: #85BDF6;
+            margin-left: 75px; 
+            margin-top: 5px;      
+        }
+        .y-play{
+            width: 55px;height: 55px;
+            margin-left:115px;
+            margin-top: 25px;
+        }
+        .y-song{
+            font-size: 0.44rem;
+            display: block;
+            margin-top: 35px;
+            margin-left: 13px;
+        }
+        .y-date{
+            font-size: 0.3rem;
+            color: #6C6A6A;
+            display: block;
+            float: right;
+            margin-right: 20px;
+            margin-top: -5px;
+        }   
+    }
+    .y-story{
+            position: absolute;
+            z-index: 20;
+            font-size: 0.3rem;
+            color: #6C6A6A;
+            margin-left: 10px;
+            top: 483px;
+    }
+    .icon-neirong{
+        position: absolute;
+        z-index: 20;
+        top: 480px;left: 210px;
+        font-size: 0.45rem;
+        color: #5D8EC4;
+    }
+    .icon-geci{
+        position: absolute;
+        z-index: 20;
+        top: 477px;left: 260px;
+        font-size: 0.63rem;
+        color: #5D8EC4;
+    }
+    .icon-gequxinxi{
+        position: absolute;
+        z-index: 20;
+        top: 481px;left: 320px;
+        font-size: 0.44rem;
+        color: #5D8EC4;
+    }
+    hr{
+        width: 95%;
+        height: 0.3px;
+        position: absolute;
+        z-index: 20;
+        top: 483px;
+        left: 10px;
+    }
+}
+.y-art{
+    width: 94%;
+    margin: 0 auto;
+    .y-arttitle{
+        font-size: 0.43rem;
+        margin-bottom: 0;
+    }
+    .y-type{
+        font-size: 0.33rem;
+        color: #85BDF6;
+        margin-top: 10px;
+        margin-left: 3px;
+    }
+    p{
+        font-size: 0.35rem;
+        line-height:18px;
+    }  
+}
+.y-artfoot{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    .icon-xin{
+       flex: 1;
+       text-align: center;
+       color: #85BDF6;
+       span{
+           color: black;
+           font-size: 0.4rem;
+       }
+    }
+    .icon-pinglun{
+        flex: 1;
+        text-align: center;
+        color: #85BDF6;
+        font-size: 0.45rem;
+        span{
+            color: black;
+            margin-left: 8px;
+            font-size: 0.4rem;
+        }
+    }
+    .icon-fenxiang{
+        flex: 1;
+        text-align: center;
+        color: #85BDF6;
+        span{
+            color: black;
+            margin-left: 8px;
+            font-size: 0.4rem;
+        }
+    }   
+}
+.y-talk{
+    width: 100%;
+    height: 40px;
+    background-color: #E6E6E6;
+    .y-ttitle{
+        font-size: 0.36rem;
+        color: #777777;
+        float: left;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 100%;
+    }
+    div{
+        img{
+            width: 45px;
+            height: 50px;
+            border-radius: 20px;
+            margin-left: 10px;
+            margin-top: 10px;
+            float: left;
+        }
+        .y-tauthor{
+            font-size: 0.36rem;
+            color: #85BDF6;
+            float: left;
+            margin-top: 24px;
+            margin-left: 8px;
+        }
+        .icon-xin{
+            font-size: 0.4rem;
+            color: #85BDF6;
+            float: right;
+            margin-top: 20px;
+            margin-right: 15px;
+        }
+        p{
+            font-size: 0.35rem;
+            color: black;
+            margin: 0;
+            margin-left: 50px;
+            float: left;
+            width: 100%;
+            line-height: 20px;
+            
+        }
+    }
+}

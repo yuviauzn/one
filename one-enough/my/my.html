@@ -2,8 +2,99 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>我的</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link rel="stylesheet" href="../css/my.css" />
+		<script type="text/javascript" src="../js/StackBlur.js" ></script>
 	</head>
 	<body>
+		<div id="wrapper" style="top: 0;">
+			<div id="scroller">
+				<div class="my-head">
+					<canvas width="372px" height="380px" id="canvas"></canvas>
+		            <form>
+			            <label for="inp"><br/><br/>上传头像</label>
+			            <input style="display: none;" id="inp" type="file"/>
+		            </form>
+		            <img class="left" src="img/left.svg" />
+		            <p>yuvi</p>
+		            <img class="my-img1" src="img/2017-01-30_152917.png" />
+		            <img class="my-img2" src="img/2017-01-30_153014.png" />
+		            <span class="my-type1">小记</span>
+		            <span class="my-type2">歌单</span>
+				</div>
+				<div class="collect">
+					<p>收藏</p>
+					<i class="img image"></i>
+					<span>图文</span>
+					<img src="img/right.svg" />
+					<hr />
+					<i class="img article"></i>
+					<span>文章</span>
+					<img src="img/right.svg" />
+					<hr />
+					<i class="img movie"></i>
+					<span>影像</span>
+					<img src="img/right.svg" />
+					<hr />
+					<i class="img message"></i>
+					<span>消息</span>
+					<img src="img/right.svg" />
+					<hr />
+				</div>
+				<div class="collect">
+					<p>设置</p>
+					<i class="img night"></i>
+					<span>夜间模式</span>
+					<input type="checkbox"/>
+					<hr />
+					<i class="img set"></i>
+					<span>其他设置</span>
+					<img src="img/right.svg" />
+					<hr />
+				</div>
+				<div class="collect">
+					<p>推荐应用</p>
+					<img class="xin" src="img/heart (2).svg" />
+					<span class="b">「业界新闻」-致独立思考者</span>
+					<span class="fit">人云亦云的人请勿下载本APP</span>
+					<img class="a" src="img/right.svg" />
+					<hr />
+					<img class="xin" src="img/heart (2).svg" />
+					<span class="b">「Fit」-私人健身教练</span>
+					<span class="fit">随时Fit一下，身材更有型</span>
+					<img class="a" src="img/right.svg" />
+					<hr />
+				</div>
+			</div>
+		</div>
+		<script>
+		    var canvas=document.querySelector("canvas");
+		    var ctx=canvas.getContext("2d");
+			var label=document.querySelector("label");
+			var ipt=document.querySelector("input");
+			ipt.onchange=function(){
+			var reader = new FileReader();
+			reader.readAsDataURL(this.files[0]);
+			reader.onload=function(e){
+				var img=document.createElement("img");
+				img.width=80;
+				img.height=80;
+				img.src=e.target.result;
+				img.id="img";
+				label.innerHTML="";
+				label.appendChild(img);
+				var img=new Image();
+			    img.src="img/p_0.jpg";
+			    img.onload=function(){
+			    	stackBlurImage("img","canvas",2,true);
+			    	console.log("mm");
+			    }
+			}
+			}
+		</script>
+		<!--<script>
+		   var scroll = new IScroll('#wrapper');
+		</script>-->
 	</body>
 </html>

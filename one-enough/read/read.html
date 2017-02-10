@@ -4,10 +4,8 @@
 		<meta charset="UTF-8">
 		<title>阅读</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1" />
-		<link rel="stylesheet" href="css/example.css">
-		<link rel="stylesheet" href="../css/iconfont.css" />
-		<link rel="stylesheet" href="../css/all.css" />
 		<link rel="stylesheet" href="../css/read.css" />
+		<script src="../js/iscroll.js"></script>
 		<script src="../js/jquery-1.9.1.min.js"></script>
         <script src="../js/jquery.slides.min.js"></script>
 		<script>
@@ -120,23 +118,22 @@
 				</li>
 			</ul>
 		</footer>
-		<script src="../js/iscroll.js"></script>
 		<script>
 		   var scroll = new IScroll('#wrapper');
 		</script>
 		<script>
-    $(function() {
-      $('#slides').slidesjs({
-        width: 350,
-        height: 200,
-        play: {
-          active: true,
-          auto: true,
-          interval: 3000,
-          swap: true
-        }
-      });
-    });
-  </script>
+            $(function() {
+                $('#slides').slidesjs({
+                    width: 350,
+                    height: 200,
+                    play: {
+                        active: true,
+                        auto: true,
+                        interval: 3000,
+                        swap: true
+                    }
+                });
+            });
+        </script>
 	</body>
 </html>

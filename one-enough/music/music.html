@@ -4,13 +4,126 @@
 		<meta charset="UTF-8">
 		<title>音乐</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1" />
-		<link rel="stylesheet" href="../css/iconfont.css" />
+		<link rel="stylesheet" href="../css/music.css" />
+		<script src="../js/jquery-1.9.1.min.js"></script>
+		<script src="../js/iscroll.js"></script>
+		<script>
+			document.querySelector("html").style.fontSize=document.documentElement.clientWidth/10+"px";
+		</script> 
 	</head>
 	<body>
 		<header>
-			<i class="icon-search iconfont"></i>
-			<span>音乐</span>
-			<i class="iconfont icon-iconfontwode"></i>
+			<i class="icon-search iconfont left"></i>
+			<span class="left yuedu">音乐</span>
+			<i class="iconfont icon-iconfontwode right"></i>
+			<hr class="left"/>
 		</header>
+		<div id="wrapper">
+			<div id="scroller">
+				<div class="y-head">
+					<img src="img/2017-01-30_152526.png" />
+					<div class="y-title">
+						<img class="himg" src="img/05.jpg" />
+						<span class="y-author">My Line Airport</span>
+						
+						<img class="y-play" src="img/play.svg" />
+						<span class="y-song">爱情disabled</span>
+						<span class="y-date">Jan30.2017</span>
+					</div>
+					<span class="y-story">音乐故事</span>
+					<span class="iconfont icon-neirong"></span>
+					<span class="iconfont icon-geci"></span>
+					<span class="iconfont icon-gequxinxi"></span>
+					<hr />
+				</div>
+				<div class="y-art">
+					<p class="y-arttitle">这个世界上是否真的有这种love disabled？</p>
+					<p class="y-type">民谣故事</p>
+					<p>
+						一个月前，朋友捡到一只流浪猫，我第一次见它时，它在一个蓝色的笼子里，冲我伸出了脏兮兮的小爪。
+						我们握了一下手，它就被我带回了家，取名“科科”，因为它的表情，总觉得是在对“人生”无所谓的呵呵。
+						<br/><br/>
+						一直很喜欢猫，因为无法接受一只过于热情的狗。后来我发现，男朋友岁这只猫的热情远远地超过了我，
+						他下班回家的第一句话变成了：科科，我回来了。以前这句话是对我说的，我好像不怎么回应他，其实科科也不理他。
+						<br /><br />
+						有时我会关上书房的门，科科会趴在门外不停的叫。男友认为，这是科科爱我的证据。其实，在我看来，
+						这只对自由超级向往的猫，无论我关上哪扇门，他都会叫--他只是要在这间房子里获得最大的自由空间，
+						并不是关心我在哪里。
+						<br/><br/>
+						一个月前，朋友捡到一只流浪猫，我第一次见它时，它在一个蓝色的笼子里，冲我伸出了脏兮兮的小爪。
+						我们握了一下手，它就被我带回了家，取名“科科”，因为它的表情，总觉得是在对“人生”无所谓的呵呵。
+						<br/><br/>
+						有时我会关上书房的门，科科会趴在门外不停的叫。男友认为，这是科科爱我的证据。其实，在我看来，
+						这只对自由超级向往的猫，无论我关上哪扇门，他都会叫--他只是要在这间房子里获得最大的自由空间，
+						并不是关心我在哪里。
+						<br /><br />
+						一个月前，朋友捡到一只流浪猫，我第一次见它时，它在一个蓝色的笼子里，冲我伸出了脏兮兮的小爪。
+						我们握了一下手，它就被我带回了家，取名“科科”，因为它的表情，总觉得是在对“人生”无所谓的呵呵。
+						<br/><br/>
+						一直很喜欢猫，因为无法接受一只过于热情的狗。后来我发现，男朋友岁这只猫的热情远远地超过了我，
+						他下班回家的第一句话变成了：科科，我回来了。以前这句话是对我说的，我好像不怎么回应他，其实科科也不理他。
+						<br /><br />
+						有时我会关上书房的门，科科会趴在门外不停的叫。男友认为，这是科科爱我的证据。其实，在我看来，
+						这只对自由超级向往的猫，无论我关上哪扇门，他都会叫--他只是要在这间房子里获得最大的自由空间，
+						并不是关心我在哪里。
+						<br /><br />
+						我不知道这是否是时代的通病，这个世界是否真的有这种love disabled？
+						心里这个问号，谁又能解答得到。
+					</p>
+					
+				</div>
+				<div class="y-artfoot">
+					<span class="iconfont icon-xin"> <span>619</span></span>
+					<span class="iconfont icon-pinglun"><span>91</span></span>
+					<span class="iconfont icon-fenxiang"><span>586</span></span>
+				</div>
+				<div class="y-talk">
+					<p class="y-ttitle">评论列表</p>
+					<div>
+						<img src="img/05.jpg" />
+						<span class="y-tauthor">Yoga宥嘉</span>
+						<span class="iconfont icon-xin">154</span>
+						<p>我们都是一群love disabled的人</p>
+						<p>喜欢的人得不到 得到的不珍惜</p>
+						<p>在一起的关系 失去的怀念</p>
+						<p>怀念的想相见 想见的恨晚</p>
+						<p>终其一生 慢慢地都是遗憾</p>
+					</div>
+					<div>
+						<span>
+							<img src="img/05.jpg" />
+						</span>
+						<span class="y-tauthor">亲爱的 我想你</span>
+						<span class="iconfont icon-xin">120</span>
+						<p>single is simple</p>
+						<p>double is trouble</p>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<ul>
+				<li>
+					<i class="iconfont icon-shouye-shouye"></i>
+					<p>首页</p>
+				</li>
+				<li>
+					<i class="iconfont icon-yuedu"></i>
+					<p>阅读</p>
+				</li>
+				<li>
+					<i class="iconfont icon-icon14"></i>
+					<p>音乐</p>
+				</li>
+				<li>
+					<i class="iconfont icon-dianying"></i>
+					<p>电影</p>
+				</li>
+			</ul>
+		</footer>
+		<script>
+		   var scroll = new IScroll('#wrapper');
+		</script>
 	</body>
 </html>

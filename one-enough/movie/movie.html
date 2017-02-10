@@ -2,8 +2,60 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>电影</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link rel="stylesheet" href="../css/movie.css" />
+		<script src="../js/jquery-1.9.1.min.js"></script>
+		<script src="../js/iscroll.js"></script>
+		<script>
+			document.querySelector("html").style.fontSize=document.documentElement.clientWidth/10+"px";
+		</script> 
 	</head>
 	<body>
+	    <header>
+			<i class="icon-search iconfont left"></i>
+			<span class="left yuedu">电影</span>
+			<i class="iconfont icon-iconfontwode right"></i>
+			<hr class="left"/>
+		</header>
+		<div id="wrapper">
+			<div id="scroller">
+				<div class="m-con">
+					<img src="img/2017-01-30_152545.png" />
+					<img src="img/2017-01-30_152600.png" />
+					<img src="img/2017-01-30_152622.png" />
+					<img src="img/2017-01-30_152635.png" />
+					<img src="img/2017-01-30_152746.png" />
+					<img src="img/2017-01-30_152801.png" />
+					<img src="img/2017-02-09_160947.png" />
+					<img src="img/2017-01-30_152724.png" />
+					<img src="img/2017-01-30_152826.png" />
+					<img src="img/2017-01-30_152854.png" />
+				</div>
+			</div>
+		</div>
+		<footer>
+			<ul>
+				<li>
+					<i class="iconfont icon-shouye-shouye"></i>
+					<p>首页</p>
+				</li>
+				<li>
+					<i class="iconfont icon-yuedu"></i>
+					<p>阅读</p>
+				</li>
+				<li>
+					<i class="iconfont icon-icon14"></i>
+					<p>音乐</p>
+				</li>
+				<li>
+					<i class="iconfont icon-dianying"></i>
+					<p>电影</p>
+				</li>
+			</ul>
+		</footer>
+		<script>
+		   var scroll = new IScroll('#wrapper');
+		</script>
 	</body>
 </html>

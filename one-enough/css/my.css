@@ -1,3 +1,253 @@
+.left {
+  float: left; }
 
+.right {
+  float: right; }
+
+body, html {
+  height: 100%; }
+
+.clear {
+  clear: both; }
+
+header {
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 10; }
+  header .icon-search {
+    font-size: 0.7rem !important;
+    color: #ccc;
+    padding-top: 10px;
+    margin-left: 1rem;
+    margin-bottom: 7px; }
+  header span {
+    font-size: 0.7rem;
+    margin-left: 2.8rem;
+    margin-top: 8px;
+    margin-bottom: 7px; }
+  header .icon-iconfontwode {
+    font-size: 0.6rem !important;
+    color: #ccc;
+    padding-top: 11px;
+    margin-right: 1rem;
+    margin-bottom: 7px; }
+  header hr {
+    border: none;
+    border-top: 0.8px solid #ccc;
+    width: 100%;
+    margin-top: 0px;
+    background-color: white; }
+
+footer {
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #CCCCCC;
+  z-index: 10; }
+  footer ul {
+    margin: 0;
+    padding: 0;
+    display: flex; }
+    footer ul li {
+      list-style: none;
+      display: inline-block;
+      flex: 1;
+      text-align: center;
+      height: 55px; }
+      footer ul li i {
+        font-size: 0.65rem !important;
+        float: left;
+        width: 2.5rem;
+        margin-top: 6px; }
+      footer ul li p {
+        margin: 0;
+        font-size: 0.25rem;
+        float: left;
+        width: 2.5rem; }
+
+.icon-dianying {
+  font-size: 0.7rem !important;
+  margin-top: 4px; }
+
+#scroller {
+  position: absolute;
+  z-index: 1;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none; }
+
+#wrapper {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  overflow: hidden;
+  height: 565px;
+  width: 100%; }
+
+.img {
+  background: url(../my/img/img.png) no-repeat; }
+
+.movie {
+  height: 32px;
+  width: 32px;
+  background-position: 0 0; }
+
+.night {
+  height: 32px;
+  width: 32px;
+  background-position: 0 -32px; }
+
+.set {
+  height: 32px;
+  width: 32px;
+  background-position: 0 -64px; }
+
+.article {
+  height: 32px;
+  width: 32px;
+  background-position: 0 -96px; }
+
+.image {
+  height: 32px;
+  width: 32px;
+  background-position: 0 -128px; }
+
+.message {
+  height: 32px;
+  width: 32px;
+  background-position: 0 -160px; }
+
+body {
+  margin: 0; }
+
+#wrapper {
+  height: 1000px !important; }
+
+.my-head p {
+  position: absolute;
+  left: 163px;
+  top: 125px;
+  color: white; }
+.my-head .my-type1 {
+  position: absolute;
+  left: 75px;
+  top: 335px;
+  color: white; }
+.my-head .my-type2 {
+  position: absolute;
+  left: 265px;
+  top: 335px;
+  color: white; }
+
+label {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 40px;
+  position: absolute;
+  left: 140px;
+  top: 50px;
+  box-shadow: 5 5 10 #6495ED; }
+
+canvas {
+  border: 1px #C5C5C5 solid; }
+
+.my-img1 {
+  position: absolute;
+  left: 25px;
+  top: 200px; }
+
+.my-img2 {
+  position: absolute;
+  right: 25px;
+  top: 200px; }
+
+.left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 22px;
+  height: 22px; }
+
+.collect p {
+  height: 25px;
+  background-color: #F8F8F8;
+  color: #999999;
+  width: 100%;
+  margin: 0;
+  float: left;
+  padding-left: 15px;
+  padding-top: 10px;
+  font-size: 12px; }
+.collect i {
+  display: block;
+  float: left;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  margin-top: 8px; }
+.collect span {
+  float: left;
+  width: 280px;
+  height: 25px;
+  font-size: 15px;
+  padding-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 5px; }
+.collect img {
+  float: left;
+  margin-top: 15px; }
+.collect hr {
+  float: left;
+  width: 80%;
+  margin: 0;
+  margin-left: 50px; }
+
+.xin {
+  margin-left: 15px; }
+
+.fit {
+  padding-top: 0 !important;
+  font-size: 12px !important;
+  color: #A2A2A2;
+  height: 15px !important; }
+
+.a {
+  height: 15px;
+  margin-top: -15px !important;
+  margin-bottom: 10px !important; }
+
+.b {
+  height: 15px !important;
+  margin-bottom: 10px !important; }
+
+input {
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin-top: 15px;
+  margin-right: 10px; }
 
 /*# sourceMappingURL=my.css.map */

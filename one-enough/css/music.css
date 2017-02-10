@@ -1,3 +1,278 @@
+@import url(iconfont.css);
+.left {
+  float: left; }
 
+.right {
+  float: right; }
+
+body, html {
+  height: 100%; }
+
+.clear {
+  clear: both; }
+
+header {
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 10; }
+  header .icon-search {
+    font-size: 0.7rem !important;
+    color: #ccc;
+    padding-top: 10px;
+    margin-left: 1rem;
+    margin-bottom: 7px; }
+  header span {
+    font-size: 0.7rem;
+    margin-left: 2.8rem;
+    margin-top: 8px;
+    margin-bottom: 7px; }
+  header .icon-iconfontwode {
+    font-size: 0.6rem !important;
+    color: #ccc;
+    padding-top: 11px;
+    margin-right: 1rem;
+    margin-bottom: 7px; }
+  header hr {
+    border: none;
+    border-top: 0.8px solid #ccc;
+    width: 100%;
+    margin-top: 0px;
+    background-color: white; }
+
+footer {
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #CCCCCC;
+  z-index: 10; }
+  footer ul {
+    margin: 0;
+    padding: 0;
+    display: flex; }
+    footer ul li {
+      list-style: none;
+      display: inline-block;
+      flex: 1;
+      text-align: center;
+      height: 55px; }
+      footer ul li i {
+        font-size: 0.65rem !important;
+        float: left;
+        width: 2.5rem;
+        margin-top: 6px; }
+      footer ul li p {
+        margin: 0;
+        font-size: 0.25rem;
+        float: left;
+        width: 2.5rem; }
+
+.icon-dianying {
+  font-size: 0.7rem !important;
+  margin-top: 4px; }
+
+#scroller {
+  position: absolute;
+  z-index: 1;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none; }
+
+#wrapper {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  overflow: hidden;
+  height: 565px;
+  width: 100%; }
+
+.yuedu {
+  font-size: 0.6rem;
+  margin-top: 14px;
+  margin-left: 2.75rem; }
+
+.y-head {
+  width: 100%;
+  height: 505px;
+  position: relative; }
+  .y-head img {
+    position: absolute;
+    z-index: 20; }
+  .y-head .y-title {
+    width: 95%;
+    height: 110px;
+    background-color: white;
+    position: absolute;
+    z-index: 30;
+    top: 345px;
+    margin-left: 10px;
+    box-shadow: 0 0 5px #A5A9AB;
+    border-radius: 4px; }
+    .y-head .y-title .himg {
+      width: 55px;
+      height: 60px;
+      border-radius: 20px;
+      margin-left: 5px;
+      margin-top: 10px; }
+    .y-head .y-title .y-author {
+      font-size: 0.35rem;
+      color: #85BDF6;
+      margin-left: 75px;
+      margin-top: 5px; }
+    .y-head .y-title .y-play {
+      width: 55px;
+      height: 55px;
+      margin-left: 115px;
+      margin-top: 25px; }
+    .y-head .y-title .y-song {
+      font-size: 0.44rem;
+      display: block;
+      margin-top: 35px;
+      margin-left: 13px; }
+    .y-head .y-title .y-date {
+      font-size: 0.3rem;
+      color: #6C6A6A;
+      display: block;
+      float: right;
+      margin-right: 20px;
+      margin-top: -5px; }
+  .y-head .y-story {
+    position: absolute;
+    z-index: 20;
+    font-size: 0.3rem;
+    color: #6C6A6A;
+    margin-left: 10px;
+    top: 483px; }
+  .y-head .icon-neirong {
+    position: absolute;
+    z-index: 20;
+    top: 480px;
+    left: 210px;
+    font-size: 0.45rem;
+    color: #5D8EC4; }
+  .y-head .icon-geci {
+    position: absolute;
+    z-index: 20;
+    top: 477px;
+    left: 260px;
+    font-size: 0.63rem;
+    color: #5D8EC4; }
+  .y-head .icon-gequxinxi {
+    position: absolute;
+    z-index: 20;
+    top: 481px;
+    left: 320px;
+    font-size: 0.44rem;
+    color: #5D8EC4; }
+  .y-head hr {
+    width: 95%;
+    height: 0.3px;
+    position: absolute;
+    z-index: 20;
+    top: 483px;
+    left: 10px; }
+
+.y-art {
+  width: 94%;
+  margin: 0 auto; }
+  .y-art .y-arttitle {
+    font-size: 0.43rem;
+    margin-bottom: 0; }
+  .y-art .y-type {
+    font-size: 0.33rem;
+    color: #85BDF6;
+    margin-top: 10px;
+    margin-left: 3px; }
+  .y-art p {
+    font-size: 0.35rem;
+    line-height: 18px; }
+
+.y-artfoot {
+  width: 100%;
+  height: 40px;
+  display: flex; }
+  .y-artfoot .icon-xin {
+    flex: 1;
+    text-align: center;
+    color: #85BDF6; }
+    .y-artfoot .icon-xin span {
+      color: black;
+      font-size: 0.4rem; }
+  .y-artfoot .icon-pinglun {
+    flex: 1;
+    text-align: center;
+    color: #85BDF6;
+    font-size: 0.45rem; }
+    .y-artfoot .icon-pinglun span {
+      color: black;
+      margin-left: 8px;
+      font-size: 0.4rem; }
+  .y-artfoot .icon-fenxiang {
+    flex: 1;
+    text-align: center;
+    color: #85BDF6; }
+    .y-artfoot .icon-fenxiang span {
+      color: black;
+      margin-left: 8px;
+      font-size: 0.4rem; }
+
+.y-talk {
+  width: 100%;
+  height: 40px;
+  background-color: #E6E6E6; }
+  .y-talk .y-ttitle {
+    font-size: 0.36rem;
+    color: #777777;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100%; }
+  .y-talk div img {
+    width: 45px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left; }
+  .y-talk div .y-tauthor {
+    font-size: 0.36rem;
+    color: #85BDF6;
+    float: left;
+    margin-top: 24px;
+    margin-left: 8px; }
+  .y-talk div .icon-xin {
+    font-size: 0.4rem;
+    color: #85BDF6;
+    float: right;
+    margin-top: 20px;
+    margin-right: 15px; }
+  .y-talk div p {
+    font-size: 0.35rem;
+    color: black;
+    margin: 0;
+    margin-left: 50px;
+    float: left;
+    width: 100%;
+    line-height: 20px; }
 
 /*# sourceMappingURL=music.css.map */
